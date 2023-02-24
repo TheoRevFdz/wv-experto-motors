@@ -51,6 +51,10 @@ body {
   background: #3f3f3f;
 }
 
+.navbar a strong {
+  color: rgb(205, 50, 36);
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -59,7 +63,7 @@ body {
 
 .header {
   height: 60vh !important;
-  background: url(img/header.jpg) no-repeat center;
+  background: url(../assets/img/home.jpeg) no-repeat center;
   background-size: cover;
 }
 
@@ -77,6 +81,14 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
+}
+
+.title2 {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
 }
 
 p {
@@ -119,6 +131,12 @@ p {
 .sau {
   padding: 30px;
   background: #1f1d1d;
+}
+
+.sau2 {
+  padding: 30px;
+  background: #fff;
+  color: #000;
 }
 
 .box-container {
