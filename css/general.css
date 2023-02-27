@@ -147,7 +147,7 @@ p {
 }
 
 .box-container .box {
-  height: 11rem;
+  height: 10rem;
   width: 17rem;
   background: #101010;
   text-align: center;
@@ -157,20 +157,26 @@ p {
 }
 
 .box-container .box i {
-  height: 3rem;
-  width: 3rem;
-  line-height: 3rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   text-align: center;
   border-radius: 50%;
   color: #fff;
   background: rgb(205, 50, 36);
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 1rem 0;
 }
 
 .box-container .box h3 {
   font-size: 20px;
   color: rgb(205, 50, 36);
+}
+
+.box-container .box h3 a {
+  font-size: 20px;
+  color: rgb(205, 50, 36);
+  text-decoration: none;
 }
 
 .box-container .box p {

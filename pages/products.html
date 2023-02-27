@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos</title>
 
     <link
@@ -11,24 +11,88 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="../css/general.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="../css/products.css" />
+  </head>
+  <body>
     <div class="head">
-        <div class="logo">
+      <div class="logo">
+        <a href="#">
+          <img src="../assets/img/logo.png" alt="LOGO" width="200" />
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <a href="./home.html">Inicio</a>
+        <a href="./products.html">
+          <strong>Productos</strong>
+        </a>
+        <a href="./services.html">Servicios</a>
+        <a href="./about.html">Nosotros</a>
+        <a href="./contact.html">Contacto</a>
+      </nav>
+    </div>
+
+    <section class="items-box">
+      <div class="container-item">
+        <div class="card">
+          <img src="../assets/img/autopartes/llantas/llanta1.png" />
+          <h4>Llanta de Audi</h4>
+          <p>S/ 220.00</p>
           <a href="#">
-            <img src="../assets/img/logo.png" alt="LOGO" width="200" />
+            <i class="fa fa-plus"></i>
+            Agregar a la compra
           </a>
         </div>
-  
-        <nav class="navbar">
-          <a href="./home.html">Inicio</a>
-          <a href="./products.html">
-            <strong>Productos</strong>
-          </a>
-          <a href="./services.html">Servicios</a>
-          <a href="./about.html">Nosotros</a>
-          <a href="./contact.html">Contacto</a>
-        </nav>
+        <div class="card">
+          <img src="../assets/img/autopartes/llantas/llanta2.jpg" />
+          <h4>Llanta de Subaru</h4>
+          <p>S/ 180.00</p>
+          <a href="#"><i class="fa fa-plus"></i> Agregar a la compra</a>
+        </div>
+        <div class="card">
+          <img src="../assets/img/autopartes/llantas/llanta3.png" />
+          <h4>Llanta de Toyota</h4>
+          <p>S/ 200.00</p>
+          <a href="#"><i class="fa fa-plus"></i> Agregar a la compra</a>
+        </div>
+        <div class="card">
+          <img src="../assets/img/autopartes/llantas/llanta4.jpg" />
+          <h4>Llanta de Nissan</h4>
+          <p>S/ 250.00</p>
+          <a href="#"><i class="fa fa-plus"></i> Agregar a la compra</a>
+        </div>
       </div>
-</body>
+
+      <div class="container-item">
+        <div class="card">
+          <img src="../assets/img/autopartes/faros/faro1.jpg" />
+          <h4>Faro de Audi</h4>
+          <p>S/ 220.00</p>
+          <a href="#"><i class="fa fa-plus"></i> Agregar a la compra</a>
+        </div>
+        <div class="card">
+          <img src="../assets/img/autopartes/faros/faro-auto.jpg" />
+          <h4>Faro de WolksVagen</h4>
+          <p>S/ 180.00</p>
+          <a href="#"
+            ><i class="fa fa-plus"></i> Agregar a la compra
+          </a>
+        </div>
+        <div class="card">
+          <img src="../assets/img/autopartes/faros/faro2.jpg" />
+          <h4>Faro de Toyota</h4>
+          <p>S/ 200.00</p>
+          <a href="#"><i class="fa fa-plus"></i> Agregar a la compra</a>
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/autopartes/faros/multibeam_overview_623x350.jpg"
+          />
+          <h4>Faro de Nissan</h4>
+          <p>S/ 250.00</p>
+          <a href="#"><i class="fa fa-plus"></i> Agregar a la compra</a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
