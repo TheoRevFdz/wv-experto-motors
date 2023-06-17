@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "desc": "Llanta aro 14",
+    "price": 200,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/llantas/llanta1.png"
+  },
+  {
+    "id": 2,
+    "desc": "Llanta aro 15",
+    "price": 250,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 3,
+    "desc": "Llanta aro 13",
+    "price": 180,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/llantas/llanta3.png"
+  },
+  {
+    "id": 4,
+    "desc": "Llanta aro 14",
+    "price": 200,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/llantas/llanta2.jpg"
+  },
+  {
+    "id": 5,
+    "desc": "Llanta aro 15",
+    "price": 230,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 6,
+    "desc": "Llanta aro 13",
+    "price": 210,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 7,
+    "desc": "Faros delanteros",
+    "price": 100,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/faros/faro1.jpg"
+  },
+  {
+    "id": 8,
+    "desc": "Faros delanteros",
+    "price": 150,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/faros/faro-auto.jpg"
+  },
+  {
+    "id": 9,
+    "desc": "Faros posteriores",
+    "price": 170,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 10,
+    "desc": "Faros posteriores",
+    "price": 110,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 11,
+    "desc": "Autoradio XC456",
+    "price": 800,
+    "brand": "PANASONIC",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 12,
+    "desc": "Parabrisas laterales",
+    "price": 70,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 13,
+    "desc": "Parabrisas laterales",
+    "price": 100,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 14,
+    "desc": "Parabrisas delantero",
+    "price": 300,
+    "brand": "NISAN",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 15,
+    "desc": "Parabrisas delantero",
+    "price": 330,
+    "brand": "TOYOTA",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 16,
+    "desc": "Alarma PLK34",
+    "price": 100,
+    "brand": "AMERICAN",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 17,
+    "desc": "Baterias de 6 celdas",
+    "price": 180,
+    "brand": "Radioshack",
+    "img": "../assets/img/autopartes/default.png"
+  },
+  {
+    "id": 18,
+    "desc": "Baterias de 8 celdas",
+    "price": 220,
+    "brand": "Radioshack",
+    "img": "../assets/img/autopartes/default.png"
+  }
+]
