@@ -12,17 +12,15 @@
     />
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/items.css" />
+    <link rel="stylesheet" href="../css/services.css" />
   </head>
   <body>
-
-
     <div class="head">
       <div class="logo">
         <a href="#">
           <img src="../assets/img/logo.png" alt="LOGO" width="200" />
         </a>
       </div>
-
       <nav class="navbar">
         <a href="./home.html">Inicio</a>
         <a href="./products.html">Productos</a>
@@ -33,7 +31,6 @@
         <a href="./contact.html">Contacto</a>
       </nav>
     </div>
-
     <section class="items-box">
       <div class="container-item">
         <div class="card">
@@ -68,7 +65,43 @@
         </div>
       </div>
     </section>
-
-    
+    <section class="msger" id="msger">
+      <header class="msger-header">
+        <div class="msger-header-title">
+          <i class="fas fa-comment-alt"></i> Chat
+        </div>
+        <div class="msger-header-options">
+          <button id="msger-button"><i class="fas fa-times"></i></button>
+        </div>
+      </header>
+      <main class="msger-chat" id="msger-chat">
+        <div class="msg left-msg">
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">BOT</div>
+            </div>
+            <div class="msg-text" id=" msg-text" >
+              ¡Hola! Bienvenido al canal oficial online de El experto motors, para atenderte más rápido escribe el número de la opción que necesitas:
+              <br/>
+              [1] Recibir información del estado de tu compra.
+              <br/>
+              [2] Necesitas ayuda para realizar tu compra
+              <br/>
+              [3] No recibiste email con to orden de compra.
+            </div>
+          </div>
+        </div>
+        <div class="msg right-msg">
+        </div>
+      </main>
+      <form class="msger-inputarea">
+        <input type="text" class="msger-input" id="msger-input" placeholder="Enter your message...">
+        <button type="submit" class="msger-send-btn">Send</button>
+      </form>
+    </section>
+    <button class="chat-btn" id="chat-btn">
+      <img src="../assets/img/whatsapp.png" id="chat-icon"class="chat-icon"/>
+    </button>
+    <script src="../js/services.js"></script>
   </body>
 </html>
