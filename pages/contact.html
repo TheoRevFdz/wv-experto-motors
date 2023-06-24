@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
     <title>Contacto</title>
 
     <link
@@ -11,101 +23,168 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/contactos.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="../css/contactos.css" />
+  </head>
+  <body>
     <div class="head">
-        <div class="logo">
-          <a href="#">
-            <img src="../assets/img/logo.png" alt="LOGO" width="200" />
-          </a>
-        </div>
-  
-        <nav class="navbar">
-          <a href="./home.html">Inicio</a>
-          <a href="./products.html">Productos</a>
-          <a href="./services.html">Servicios</a>
-          <a href="./about.html">Nosotros</a>
-          <a href="./contact.html">
-            <strong>Contacto</strong>
-          </a>
-        </nav>
+      <div class="logo">
+        <a href="#">
+          <img src="../assets/img/logo.png" alt="LOGO" width="200" />
+        </a>
       </div>
 
+      <nav class="navbar">
+        <a href="./home.html">Inicio</a>
+        <a href="./products.html">Productos</a>
+        <a href="./services.html">Servicios</a>
+        <a href="./about.html">Nosotros</a>
+        <a href="./contact.html">
+          <strong>Contacto</strong>
+        </a>
+      </nav>
+    </div>
+
     <div class="container-form">
-       <div class="info-form">
+      <div class="info-form">
         <h1>contáctanos</h1>
-         <p>
-          Conocer la opinión de nuestros clientes es muy importante para nosotros,
-           extendemos la invitación a llenar nuestro formulario y solicitar 
-           información sobre los servicios que ofrecemos. A la brevedad posible,
-            uno de nuestros representantes atenderá tu consulta.
+        <p>
+          Conocer la opinión de nuestros clientes es muy importante para
+          nosotros, extendemos la invitación a llenar nuestro formulario y
+          solicitar información sobre los servicios que ofrecemos. A la brevedad
+          posible, uno de nuestros representantes atenderá tu consulta.
         </p>
-           <a href="#"> <i class="fa fa-phone"></i>959-908-561</a>
-           <a href="#"> <i class="fa fa-envelope"></i>Gerencia@elexpertoautomotiz.com.pe</a>
-           <a href="#"> <i class="fa fa-map-marked"></i>Arequipa, Perú</a>
-       </div>
+        <a href="#"> <i class="fa fa-phone"></i>959-908-561</a>
+        <a href="#">
+          <i class="fa fa-envelope"></i>Gerencia@elexpertoautomotiz.com.pe</a
+        >
+        <a href="#"> <i class="fa fa-map-marked"></i>Arequipa, Perú</a>
+      </div>
 
-       <form action="#" autocomplete="off">
-            <input type="text" name="nombre" placeholder="Nombre" class="campo">
-            <input type="email" name="email" placeholder="Correo" class="campo">
-            <input type="número" name="celular" placeholder="Celular" class="campo">
-           <textarea name="mensaje" placeholder="ingresa tu mensaje"></textarea>
-           <input type="submit" name="enviar" value="enviar mensaje" class="btn-enviar">
-       </form> 
+      <div class="container form-contact">
+        <div class="card">
+          <div>
+            <div class="card-body">
+              <form id="frmContact">
+                <div class="col-md-12">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    placeholder="Nombre"
+                    required
+                  />
+                </div>
 
+                <div class="col-md-12">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    placeholder="Correo"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    name="phone"
+                    type="text"
+                    class="form-control"
+                    placeholder="Celular"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="form-control"
+                    placeholder="Ingresa tu mensaje"
+                    style="width: 100%"
+                  ></textarea>
+                  <div
+                    id="contMessage"
+                    class="invalid-feedback"
+                    style="
+                      text-align: right;
+                      padding-top: 0px;
+                      padding-right: 50px;
+                      padding-bottom: 15px;
+                      font-size: 12pt;
+                    "
+                  >
+                    0/120
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-block btn-enviar">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-       
-       
-       <div class="contenedor1" >
+      </div>
+    </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.1982686940755!2d-71.4956215999836!3d-16.414753842834507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0713826dcd%3A0x6c16cbd7abbeea26!2sEL%20EXPERTO%20MOTORS!5e0!3m2!1ses-419!2spe!4v1677641664843!5m2!1ses-419!2spe" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="contenedor1">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.1982686940755!2d-71.4956215999836!3d-16.414753842834507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0713826dcd%3A0x6c16cbd7abbeea26!2sEL%20EXPERTO%20MOTORS!5e0!3m2!1ses-419!2spe!4v1677641664843!5m2!1ses-419!2spe"
+        width="800"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
 
-       </div>
+    <footer>
+      <div class="caja">
+        <p>
+          LUNES A VIERNES 8:00 am - 5:30 pm SÁBADO 8:00 am - 3:00 pm
+          <br />
+          EXPERTO MOTORS: Calle Cusco 405, Jorge Chávez - Paucarpata
+          <br />
+          <br />
+          SIGUE NUESTRAS PROMOCIONES EN:<br />
+          <a
+            href="https://www.facebook.com/elexpertoautomotriz.com.pe/"
+            target="_blank"
+            ><img src="../assets/img/facebook.jpeg"
+          /></a>
+          <a href="https://twitter.com/ExpertoMotores" target="_blank"
+            ><img src="../assets/img/twitter.jpeg"
+          /></a>
+          <a
+            href="https://www.youtube.com/channel/UCNdXTQesK5Fk-MyrjgDcIfQ/about"
+            target="_blank"
+            ><img src="../assets/img/youtube.jpeg"
+          /></a>
+        </p>
 
-       <footer>           
-        <div class="caja">
+        <br />
+        <br />
 
-          
-          <p>
-            LUNES A VIERNES 8:00 am - 5:30 pm  SÁBADO 8:00 am - 3:00 pm
-            <br> 
-           EXPERTO MOTORS: Calle Cusco 405, Jorge Chávez - Paucarpata
-           <br>
-           <br>
-          SIGUE NUESTRAS PROMOCIONES EN:<br>
-           <a href="https://www.facebook.com/elexpertoautomotriz.com.pe/" target="_blank"><img src="../assets/img/facebook.jpeg"></a>
-        <a href="https://twitter.com/ExpertoMotores" target="_blank"><img src="../assets/img/twitter.jpeg"></a>
-        <a href="https://www.youtube.com/channel/UCNdXTQesK5Fk-MyrjgDcIfQ/about" target="_blank"><img src="../assets/img/youtube.jpeg"></a>
+        <p>Copyright © 2023 EXPERTO MOTORS - Todos los derechos reservados.</p>
+      </div>
+    </footer>
 
-         </p>
-       
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
-         <br>
-         <br>
-        
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
 
-
-          <P>Copyright © 2023 EXPERTO MOTORS - Todos los derechos reservados.</P>
-
-        </div>
-
-        </footer>
-
-
-       
-
-
-   
-
-
-
-
-
-
-
-
-
-
-</body>
+    <script src="../js/contact.js"></script>
+  </body>
 </html>
