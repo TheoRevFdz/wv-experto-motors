@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   font-size: 100%;
-  vertical-align:baseline;
+  vertical-align: baseline;
 }
 
 body {
@@ -49,6 +49,9 @@ body {
 
 .navbar a:hover {
   background: #3f3f3f;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .navbar a strong {
@@ -134,7 +137,7 @@ p {
 }
 
 .sau2 {
-  padding: 30px;
+  /* padding: 30px; */
   background: #fff;
   color: #000;
 }
@@ -147,7 +150,7 @@ p {
 }
 
 .box-container .box {
-  height: 10rem;
+  height: 15rem;
   width: 17rem;
   background: #101010;
   text-align: center;
@@ -216,12 +219,11 @@ p {
   }
 }
 
-
-
 /*For carrusel */
 
-
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -236,7 +238,8 @@ p {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -258,8 +261,9 @@ p {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -294,7 +298,8 @@ p {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -305,6 +310,10 @@ p {
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }

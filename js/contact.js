@@ -4,7 +4,7 @@ const contMessage = document.getElementById("contMessage");
 const frmContact = document.getElementById("frmContact");
 
 const patterns = {
-  name: /^[a-z\d]{3,20}$/i,
+  name: /^[a-z]{3,20}$/i,
   email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
   phone: /^\d{9}$/,
   message: /^[a-z0-9\s]{3,120}$/,
@@ -39,4 +39,10 @@ textArea.addEventListener("keyup", (e) => {
 frmContact;
 addEventListener("submit", (e) => {
   e.preventDefault();
+  $("#successModal").modal("show");
 });
+
+const closeModal = () => {
+  console.log("close modal!");
+  $("#successModal").modal("hide");
+};

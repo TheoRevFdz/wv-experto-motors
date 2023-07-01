@@ -1,7 +1,7 @@
 import products from "../db/products.json" assert { type: "json" };
 
 const prodDiv = document.querySelector("#products-content");
-const infoModal = document.getElementById("infoModal");
+// const infoModal = document.getElementById("infoModal");
 const txtName = document.querySelector("#txtFinder");
 
 let templateProduct = `<div class="card" id="{id}" class="item">
